@@ -11,18 +11,18 @@ $(document).ready(function() {
     slidesToShow: 4,
     slidesToScroll: 2,
     responsive: [
+      // {
+      //   breakpoint: 1600,
+      //   settings: {
+      //     arrows: false,
+      //     slidesToShow: 3,
+      //     slidesToScroll: 1,
+      //     infinite: true,
+      //     dots: true
+      //   }
+      // },
       {
         breakpoint: 1600,
-        settings: {
-          arrows: false,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 1200,
         settings: {
           arrows: false,
           slidesToShow: 2,
