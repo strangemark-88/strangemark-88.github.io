@@ -12,12 +12,13 @@ body {
   font-size: 18px;
   font-weight: 400;
   overflow-x: hidden;
-  color: #707172;
-  background-color: #666;
+  color: #353535;
+  background-color: #166088;
 }
 
 .headingText {
   font-family: "Monda", Arial, Helvetica, sans-serif;
+  color: #F4A261
 }
 
 p {
@@ -38,20 +39,20 @@ a {
 }
 
 .tm-color-primary {
-  color: #069;
+  color: #264653;
 }
 
 .tm-color-gray {
-  color: #333;
+  color: #353535;
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .tm-bg-white-transparent {
   background-color: rgba(255, 255, 255, 0.70);
-  border: 1px solid white;
+  border: 1px solid #F4A261;
 }
 
 .tm-intro {
@@ -100,7 +101,7 @@ a {
 
 .tm-double-border-1,
 .tm-double-border-2 {
-  border: 1px solid #fff;
+  border: 1px solid #F4A261;
   position: relative;
 }
 
@@ -110,7 +111,7 @@ a {
 }
 
 .tm-border-gray {
-  border-color: #cdcecf;
+  border-color: #2B2A4B;
 }
 
 .tm-box-pad {
@@ -170,7 +171,7 @@ a {
   display: block;
   width: 15px;
   height: 15px;
-  background-color: white;
+  background-color: #F4A261;
 }
 
 .nav-link {
@@ -181,7 +182,7 @@ a {
 
 .nav-link .tm-white-rect {
   opacity: 0;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .nav-link.current .tm-white-rect,
@@ -201,7 +202,7 @@ a {
     opacity: 1;
   }
   50% {
-    opacity: 0.1;
+    opacity: 0.25;
   }
   100% {
     opacity: 1;
@@ -216,7 +217,7 @@ a {
   width: 40px;
   height: 40px;
   color: black;
-  background-color: white;
+  background-color: #DBE9EE;
   margin: 8px;
   border-radius: 5px;
   padding: 0;
@@ -228,7 +229,7 @@ a {
 .tm-social-link:hover,
 .tm-social-link:focus {
   background-color: #069;
-  color: white;
+  color: #F4A261;
 }
 
 .tm-footer-link {
@@ -245,7 +246,7 @@ a {
 }
 
 .tm-section-icon {
-  color: #369;
+  color: #2B2A4B;
   width: 120px;
   height: 120px;
   display: flex;
@@ -306,7 +307,7 @@ a {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #98999a;
+  color: #f56e48;
   opacity: 1;
 }
 
@@ -394,7 +395,7 @@ a {
 /*---------------*/
 
 figure.effect-bubba {
-  background: #069;
+  background: #f56e48;
 }
 
 figure.effect-bubba img {
@@ -517,7 +518,7 @@ figure.effect-bubba:hover p {
 }
 
 .tm-btn-primary {
-  color: #707172;
+  color: #264653;
   border-bottom: 1px solid #cdcecf;
   padding: 10px 18px;
   position: relative;
@@ -526,7 +527,7 @@ figure.effect-bubba:hover p {
 .tm-btn-primary:hover,
 .tm-btn-primary:active {
   color: #fff;
-  background-color: #999;
+  background-color: #264653;
 }
 
 .tm-btn-primary:after {
@@ -618,7 +619,7 @@ figure.effect-bubba:hover p {
     display: block;
     position: fixed;
     left: 0;
-    top: 0;
+    /*top: 0;*/
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 10px 15px;
